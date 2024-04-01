@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "fastapi-todo2"
+version = "0.1.0"
+description = ""
+authors = ["Juraj Matase <juraj@matase.sk>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = {extras = ["all"], version = "^0.110.0"}
+sqlalchemy = "^2.0.29"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
